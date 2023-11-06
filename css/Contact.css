@@ -1,0 +1,17 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.border{
+    display: flex;
+    border: 1px solid black;
+}
+
+footer{
+    color: blue;
+    height: 50px;
+}

@@ -35,7 +35,15 @@
     margin-right: 20px;
 }
 
+#video {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 #bande-annonce {
     width: 650px;
-    height: 400px;
+    height: 380px;
 }
+
