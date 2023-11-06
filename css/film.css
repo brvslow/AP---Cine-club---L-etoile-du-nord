@@ -1,0 +1,41 @@
+#titre-film {
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#affiche {
+    width: 200px;
+    height: 350px;
+    margin-left: 20px;
+}
+
+.affiche {
+    display: flex;
+}
+
+.t16 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.t12 {
+    font-size: 12px;
+}
+
+.t14 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.infos {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#bande-annonce {
+    width: 650px;
+    height: 400px;
+}

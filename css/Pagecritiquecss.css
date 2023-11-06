@@ -1,0 +1,19 @@
+h1{
+    display: flex;
+    text-align: center;
+}
+
+.italien{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius : 75px;
+}
+
+.nom_critiq{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 1px solid grey;
+}
