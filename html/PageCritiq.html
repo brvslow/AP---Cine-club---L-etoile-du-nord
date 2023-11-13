@@ -6,6 +6,7 @@
         <title>L'étoile du nord - Commentaires et critiques</title>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/Pagecritiquecss.css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     </head>
     <body>
         <div class="haut-accueil">
@@ -42,22 +43,31 @@
                 <div id="formul">
                     <form action="" method="post">
                         <label for="mail" >Votre e-mail : </label>
-                        <br>
+                        <br><br>
                         <input type="text" name="mail" id="mail" placeholder="exemple@exemple.com" class="mail">
+                        
                         <br>
+                        <!-- Note avec étoiles-->
+                        <label for="msg"> Votre note : </label>
+                        <br><br>
+                        <div class="stars">
+                            <i class="lar la-star" data-value="1"></i><i class="lar la-star" data-value="2"></i><i class="lar la-star" data-value="3"></i><i class="lar la-star" data-value="4"></i><i class="lar la-star" data-value="5"></i>
+                        </div>
+
                         <br>
                         <label for="msg"> Votre avis : </label>
-                        <br>
+                        <br><br>
                         <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Donnez votre avis sincère et honnete"></textarea>
                         <br>
                         <label for="carre">Accepter les cgv : </label>
                         <input type="checkbox" name="carre" id="carre">
+                        <br><br>
                         <input type="button" value="Envoyer" class="btn-primary">
                         
                     </form>
                 </div>
             </div>
         </div>
-        
+        <script src="../js/script.js"></script>
     </body>
 </html>
