@@ -1,5 +1,6 @@
 body{
     height: 1200px;
+    box-shadow: inset 0px 0px 50px gray;
 }
 
 
@@ -33,10 +34,6 @@ h1, h3{
     flex-direction: row;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-}
 
 .btn-primary{
     display: flex;
@@ -46,17 +43,26 @@ form{
     height: 30px;
     cursor: pointer;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 textarea{
     width: 80%;
     height: 50%;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 5px rgb(171, 158, 158);
+    border-radius: 5px;
 }
 
 .mail{
-    border: 1px solid grey;
-    width: 10%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 60%;
+    box-shadow: 0px 0px 5px gray;
 }
 
 
+#formul{
+    display: flex;
+    justify-content: center;
+}
