@@ -54,3 +54,8 @@ window.onload = () => {
         }
     }
 }
+
+function envoyer(){
+    alert("Votre message a bien été envoyer, nous vous répondrons dans les plus brefs délais")
+    console.log("envoyé")
+}
