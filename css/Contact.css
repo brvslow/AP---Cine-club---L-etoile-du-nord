@@ -78,7 +78,7 @@ h2{
     text-decoration: underline;
 }
 
-.formul{
+.formul, .map1{
     display: flex;
     justify-content: center;
 }
@@ -90,5 +90,9 @@ form {
 }
  
 label {
+    text-align: center;
+}
+
+.map1 {
     text-align: center;
 }
